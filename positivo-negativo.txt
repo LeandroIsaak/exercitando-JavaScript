@@ -1,0 +1,9 @@
+Escreva um código que atribua um número inteiro a uma variável e, se ele for positivo, 
+atribua a outra variável o valor 1. Caso contrário, atribua o valor -1.
+
+
+var numero = -20
+if (numero < 0){
+    console.log ("-1")}
+    else{
+        console.log ("1")}

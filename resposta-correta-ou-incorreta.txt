@@ -1,0 +1,16 @@
+Crie um programa que atribua a uma variável uma aternativa de questão de múltipla escolha
+(por exemplo: "a","b","c","d" ou "e".
+Caso a resposta seja "a", retorna a mensagem "Resposta Correta".Caso for outra alternativa
+retorna a mensagem "Respota Incorreta".
+Use SWITCH, CASE.
+
+
+
+
+var alternativa = "a"
+switch (alternativa){
+    case "a":
+console.log ("Resposta Correta")
+break;
+default:
+    console.log ("Resposta Errada")}

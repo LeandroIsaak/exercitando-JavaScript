@@ -1,0 +1,15 @@
+Crie um programa que atribua a uma variável um número e retorna a mensagem "o número 
+está no intervalo de 1 a 10" se o número estiver entre 1 e 10 (inclusive), a mensagem 
+"o número está no intervalo de 11 a 20" se o número estiver entre 11 e 20 (inclusive), 
+e a mensagem "o número está fora dos intervalos permitidos" caso contrário.
+
+
+
+
+var numero = 20
+    if (numero >= 0 && numero <= 10){
+        console.log ("O Número está no intervalo entre 1 e 10")}
+        if (numero >= 11 && numero <= 20){
+            console.log ("O Número está no intervalo de 11 e 20")}
+          if (numero > 20 || numero < 0){
+              console.log ("O número está fora dos intervalos permitidos")}

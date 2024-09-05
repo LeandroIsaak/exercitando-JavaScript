@@ -1,0 +1,9 @@
+Crie um programa que atribua a uma variável um número e retorna a mensagem "par" se o 
+número for par ou "ímpar" se o número for ímpar.
+
+
+var numero = 1
+if (numero % 2 === 0){
+    console.log ("Par")}
+    else{
+        console.log ("Ímpar")}
